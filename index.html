@@ -1,77 +1,108 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta name="robots" content="index, follow">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jakub Kasprzyk - Wizytówka</title>
-    <meta name="description" content="Oficjalna strona internetowa – Jakub Kasprzyk. Portfolio, kontakt, projekty i informacje o mnie.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #4a90e2, #9013fe);
-            color: white;
-            display: flex;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-        }
+  <!-- SEO -->
+  <title>Jakub Kasprzyk – Wizytówka | Portfolio</title>
+  <meta name="description" content="Oficjalna strona internetowa – Jakub Kasprzyk. Wizytówka, portfolio, projekty, kontakt.">
+  <meta name="keywords" content="Jakub Kasprzyk, portfolio, wizytówka, GitHub Pages">
+  <meta name="author" content="Jakub Kasprzyk">
+  <meta name="robots" content="index, follow">
 
-        .card {
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(8px);
-            padding: 40px;
-            border-radius: 20px;
-            text-align: center;
-            width: 320px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-        }
+  <!-- Open Graph -->
+  <meta property="og:title" content="Jakub Kasprzyk – Wizytówka">
+  <meta property="og:description" content="Oficjalna strona – Jakub Kasprzyk. Portfolio i kontakt.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://JakubK419.github.io/">
+  <meta property="og:image" content="https://JakubK419.github.io/og-image.png">
 
-        h1 {
-            margin-top: 0;
-            font-size: 2em;
-        }
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jakub Kasprzyk – Wizytówka">
+  <meta name="twitter:description" content="Oficjalna strona – Jakub Kasprzyk. Portfolio.">
 
-        p {
-            font-size: 1.1em;
-        }
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jakub Kasprzyk",
+    "url": "https://JakubK419.github.io/",
+    "jobTitle": "Student / Programista",
+    "sameAs": [
+      "https://github.com/JakubK419",
+      "https://www.linkedin.com/in/twoj-login/"
+    ]
+  }
+  </script>
 
-        .button {
-            margin-top: 20px;
-            display: inline-block;
-            padding: 10px 20px;
-            border-radius: 10px;
-            background-color: white;
-            color: #4a90e2;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.2s ease-in-out;
-        }
-
-        .button:hover {
-            background-color: #e2e2e2;
-        }
-    </style>
+  <!-- Style -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
 </head>
 
 <body>
-    <div class="card">
-        <h1>Jakub Kasprzyk</h1>
-        <h1>Witam Cię na mojej stronce :) Nazywam się Jakub Kasprzyk</h1>
-        <p>O mnie słów kilka:</p>
-        <p>- Student III roku na Uniwersytecie Śląskim na kierunku Informatyka</p>
-        <p>- Interesuję się sztuczną inteligencją, bazami danych (tym bardziej SQL) oraz programuję.</p>
-        <p>- Ukończyłem V LO w Dąbrowie Górniczej.</p>
-        <p>W wolnych chwilach lubię jeździć na rowerze, czy podróżować (zwłaszcza moją toyotą ;))</p>
-        <Linki do social mediów>
-        <div class="links">
-            <a href="https://github.com/JakubK419" target="_blank">Moja stronka</a>
-            <a href="https://example.com" target="_blank">Instagram</a>
-            <a href="mailto:twojemail@example.com">E-mail</a>
-        </div>
-        <a class="button" href="https://github.com/JakubK419" target="_blank">Mój GitHub</a>
-    </div>
+
+  <header>
+    <h1>Jakub Kasprzyk</h1>
+    <p>Moja oficjalna wizytówka online</p>
+  </header>
+
+  <section>
+    <h2>O mnie</h2>
+    <p>
+      Nazywam się <strong>Jakub Kasprzyk</strong>.
+      Jestem studentem III roku na UŚ w Katowicach.
+      Ta strona to moja wizytówka internetowa i portfolio.
+    </p>
+  </section>
+
+  <section>
+    <h2>Kontakt</h2>
+    <p>
+      GitHub:
+      <a href="https://github.com/JakubK419" target="_blank">
+        github.com/JakubK419
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Jakub Kasprzyk</p>
+  </footer>
+
 </body>
 </html>
